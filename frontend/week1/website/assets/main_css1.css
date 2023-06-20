@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+::-webkit-scrollbar {
+    display: none;
+    }
+.section-1{
+    width:100vw;
+    height:100vh;
+    background:linear-gradient(to bottom,rgb(226,239,248) 10%,30%,white);
+
+    position:relative;
+}
+.section-1-static-outer{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+}
+.section-1-static-top-bar{
+    height: 10vh;
+    width: 100vw;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+.section-1-static-top-bar-logo-outer{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-content: end;
+}
+.section-1-static-top-bar-logo-img-outer{
+    margin-left: 300px;
+}
+.section-1-static-top-bar-logo{
+    height:80%;
+    aspect-ratio: 1/1;
+
+}
+.section-1-static-top-bar-menu-outer{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section-1-static-top-bar-menu-item{
+    font-size: 22px;
+    color:#3e3e3e;
+    text-align: center;
+    margin-left: 60px;
+}
+.margin-1-2{
+    width:100vw;
+    height:20px;
+    background:linear-gradient(to bottom,rgb(240, 240, 240),white);
+
+}
+.section-2{
+    width:100vw;
+    height:150vh;
+    background:rgb(255, 255, 255);
+}
+.section-3{
+    width:100vw;
+    height:60vh;
+    background:#EDF5FB;
+    padding-top: 0.1px;
+}
+.section-4{
+    width:100vw;
+    height:80vh;
+    background:#ffffff;
+}
+.footer{
+    width:100vw;
+    height:10vh;
+    background:#4A99D3;
+}
+
+
+.section-3-heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color:#4A99D3;
+    margin-top: 12vh;
+    height: 5vh;
+}
+
+.section-3-flex-container{
+    display:flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    height: calc(37vh - 20px);
+    
+}
+.section-3-flex-container-box{
+   width: 300px;
+   margin-left: 20px;
+   height: 100%;
+    
+}
+.section-3-image-outer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3-image{
+    width:20%;
+    aspect-ratio: 1/1;
+}
+
+.section-3-flex-container-box-content{
+    margin-top:40px ;
+    text-align: center;
+}
+.section-3-flex-container-box-content-heading{
+    font-weight: bold;
+    font-size: 26px;
+    color:#494949;
+}
+.section-3-flex-container-box-content-message{
+    font-size: 22px;
+    color:#5b5b5b;
+    margin-top: 10px;
+}
