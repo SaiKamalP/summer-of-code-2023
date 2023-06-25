@@ -57,6 +57,9 @@
     margin-left:20px;
     margin-right: 10px;
 }
+.section-1-static-top-bar-menu-item-onfocus{
+    color:rgb(16, 103, 189);
+}
 
 .section-1-static-carousel-nav-btns-outer{
     position: absolute;
