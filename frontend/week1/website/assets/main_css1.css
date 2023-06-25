@@ -106,10 +106,92 @@
 }
 .section-2{
     width:100vw;
-    height:150vh;
+    aspect-ratio: 10/11;
     background:rgb(255, 255, 255);
+    position:relative;
+}
+.section-2-heading{
+    font-size: min(37px,3vw);
+    position: absolute;
+    left:15%;
+    top:10%;
+}
+.section-2-card-outer{
+    position: absolute;
+    width: 25%;
+    aspect-ratio: 2/3;
+    border-radius: 20px;
+    box-shadow: 5px 20px 50px rgba(74, 153, 211,0.2);
+    display: flex;
+    flex-direction: column;
+}
+.section-2-card-img-outer{
+    width:100%;
+    height:35%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.section-2-card-img-background{
+    height:80%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    position: absolute;
+    background: linear-gradient(to top,#d5edff ,transparent);
+    bottom:0px;
+}
+.section-2-card-img-foreground-outer{
+    position: absolute;
+    height:110%;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+.section-2-card-img-foreground{
+    max-height: 100%;
+    max-width: 100%;
+
+}
+.section-2-card-content-outer{
+    height:50%;
+    margin-top:5%;
+    align-self: center;
+    width:80%;
+}
+.section-2-card-content-heading{
+    font-size: min(25px,2.4vw);
+    font-weight: bold;
+    margin-top:5%;
+}
+.section-2-card-content-message{
+    font-size: min(20px,1.6vw);
+    margin-top: 10%;
+}
+.section-2-card-footer{
+    width: 80%;
+    height: 15%;
+    align-self: center;
+    display: flex;
+    font-size: min(20px,1.7vw);
+    color: #0082df;
 }
 
+.section-2-card-1{
+
+    left:55%;
+    top:10%;
+}
+.section-2-card-2{
+
+    left:15%;
+    top:30%;
+}
+.section-2-card-3{
+
+    left:55%;
+    top:55%;
+}
 
 .section-3{
     width:100vw;
@@ -286,4 +368,5 @@
 }
 .footer-image{
     height: 100%;
+    filter: invert(100%);
 }
